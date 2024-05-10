@@ -1,3 +1,6 @@
+
+import Blogs from "./componets/Blogs/Blogs"
+import Bokmark from "./componets/Bokmark/Bokmark"
 import Navber from "./componets/Navber/Navber"
 
 function App() {
@@ -9,6 +12,10 @@ function App() {
      <div className="mt-3 mx-16">
      <Navber></Navber>
      <hr></hr>
+     </div>
+     <div className="md:flex">
+     <Blogs></Blogs>
+      <Bokmark></Bokmark>
      </div>
       
     </>
